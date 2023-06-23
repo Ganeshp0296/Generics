@@ -38,5 +38,22 @@ public class MaximumValueTest {
         float value = new MaximumValue<Float>(9.0f, 5.0f, 11.0f).findMax();
         Assertions.assertEquals(11.0f, value, 0.0f);
     }
+    @Test
+    public void givenThreeNumberWhenStringValueShouldReturnMaxAtFirstPosition() {
+        String value = new MaximumValue<String>("peach", "apple", "banana").findMax();
+        Assertions.assertEquals("peach", value);
+    }
+
+    @Test
+    public void givenThreeNumberWhenStringValueShouldReturnMaxAtSecondPosition() {
+        String value = new MaximumValue<String>("apple", "peach", "banana").findMax();
+        Assertions.assertEquals("peach", value);
+    }
+
+    @Test
+    public void givenThreeNumberWhenStringValueShouldReturnMaxAtThirdPosition() {
+        String value = new MaximumValue<String>("apple", "banana", "peach").findMax();
+        Assertions.assertEquals("peach", value);
+    }
 
 }
