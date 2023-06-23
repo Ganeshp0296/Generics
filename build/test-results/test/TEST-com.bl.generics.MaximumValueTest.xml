@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.generics.MaximumValueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-23T14:48:13" hostname="GANESH" time="0.036">
+<testsuite name="com.bl.generics.MaximumValueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-23T15:18:07" hostname="GANESH" time="0.035">
   <properties/>
-  <testcase name="givenThreeNumberWhenIntegerNumberShouldReturnMaxAtThirdPosition()" classname="com.bl.generics.MaximumValueTest" time="0.036"/>
-  <system-out><![CDATA[Maximum Integer number is 9
+  <testcase name="givenThreeNumberWhenFloatNumberShouldReturnMaxAtFirstPosition()" classname="com.bl.generics.MaximumValueTest" time="0.035"/>
+  <system-out><![CDATA[Maximum value is 9.0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
